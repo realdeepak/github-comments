@@ -17,5 +17,5 @@ const makeCommit = (x,y) => {
     simpleGit().add(FILE_PATH).commit(DATE, {'--date': DATE});
   });
 }
-  makeCommit(3,3);
+  makeCommit(3,2);
 
